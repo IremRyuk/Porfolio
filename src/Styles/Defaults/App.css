@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App {
+  background-color: #292929;
+  color: #00ffd0;
+}
+
+.line {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 70%;
+  transition: 0.05s;
+}
+.line:active {
+  transform: translate(-50%, -50%);
+  scale: 1.2;
+}/*# sourceMappingURL=App.css.map */

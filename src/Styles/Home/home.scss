@@ -1,0 +1,171 @@
+// Intro Page
+.intro-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 55;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: AnimeText 4s linear;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+// Animate Text From Left To Right
+@keyframes AnimeText {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+// Left And Right Slide
+.left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 50;
+}
+.right {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 50;
+}
+@keyframes LeftSlide {
+    0% {
+        width: 50vw;
+    }
+    100% {
+        width: 0;
+    }
+}
+@keyframes RightSlide {
+    0% {
+        width: 50vw;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+// End Of Intro Page
+
+////////////////////////////////////////////////////// 
+
+// PicAndAbout Page
+
+.firstload {
+    width: 100vw;
+    height: 500px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+// Left Info
+.leftTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    width: fit-content;
+    height: 200px;
+}
+.text {
+    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+
+.container {
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation {
+    width: fit-content;
+    height: 60px;
+    overflow-y: hidden;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+.animation > div > div {
+    height: 3.0rem;
+    margin-bottom: 2.90rem;
+    display: inline-block;
+    border-radius: 25mm;
+}
+
+.first div {
+    padding: 0 40px;
+    background-color: #20a7d8;
+}
+.second div {
+    padding: 0 40px;
+    background-color: #CD921E;
+}
+.third div {
+    padding: 0 40px;
+    background-color: #c10528;
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+    10% {
+        margin-top: 0;
+    }
+    20% {
+        margin-top: -5.62rem;
+    }
+    30% {
+        margin-top: -5.62rem;
+    }
+    40% {
+        margin-top: -11.24rem;
+    }
+    60% {
+        margin-top: -11.24rem;
+    }
+    70% {
+        margin-top: -5.62rem;
+    }
+    80% {
+        margin-top: -5.62rem;
+    }
+    90% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+//   Image
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 50%;
+}
