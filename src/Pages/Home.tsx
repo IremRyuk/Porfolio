@@ -1,11 +1,15 @@
 import Intro from "../Page Components/Home Page/Intro";
-import PicAndAbout from "../Page Components/Home Page/PicAndAbout";
+import PralaxPicAbout from "../Page Components/Home Page/PralaxPicAbout";
+import ProgrSkills from "../Page Components/Home Page/ProgrSkills";
+import Projects from "../Page Components/Home Page/Projects";
 
 export default function Home() {
   return (
     <>
     <Intro />
-    <PicAndAbout />
+    <PralaxPicAbout />
+    <ProgrSkills />
+    <Projects />
     </>
   )
 }

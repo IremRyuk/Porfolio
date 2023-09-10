@@ -10,19 +10,24 @@
     // cursor:none;
 }
 // Animated Line
-.line{
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    transform: translate(-50%,-50%);
-    z-index: 100;
-    background-color: white;
-    width: 15px;
-    height: 15px;
-    border-radius: 70%;
-    transition: 0.05s;
-    &:active{
-        transform: translate(-50%,-50%);
-        scale: 1.2;
-    }
-}
+
+// If Cursoris ,,On''
+
+// .line{
+//     position: absolute;
+//     left: 5%;
+//     top: 5%;
+//     transform: translate(-50%,-50%);
+//     z-index: 100;
+//     background-color: white;
+//     width: 15px;
+//     height: 15px;
+//     border-radius: 70%;
+//     transition: 0.05s;
+//     &:active{
+//         transform: translate(-50%,-50%);
+//         scale: 1.2;
+//     }
+// }
+
+// If Cursoris ,,On''
