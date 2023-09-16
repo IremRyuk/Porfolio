@@ -8,7 +8,7 @@ import {
 
 export default function PralaxPicAbout() {
   return (
-    <div className='paralaxmain'>
+    <div className='paralaxmain' style={{overflow:'none'}}>
       <MouseParallaxContainer
             className="parallax"
             globalFactorX={0.2}
@@ -43,24 +43,6 @@ export default function PralaxPicAbout() {
             >
               <img src={IremRyuk} alt='George Ireamdze' className='image'/>
             </MouseParallaxChild>
-            
-            {/* <MouseParallaxChild
-              factorX={0.7}
-              factorY={0.5}
-              style={{
-                filter: "invert(0)",
-              }}
-            >
-<main className="container">
-  <p className='text'>Hello There I'm </p>
-  <section className="animation">
-    <div className="third"><div>Web Designer</div></div>
-    <div className="second"><div>Web Developer</div></div>
-    <div className="first"><div>George Iremadze</div></div>
-  </section>
-  <p className='text'>,From 2020 I am working in Web-Development,from '','', </p>
-</main>
-            </MouseParallaxChild> */}
             </div>
             <MouseParallaxChild
               factorX={0.9}
@@ -82,14 +64,14 @@ export default function PralaxPicAbout() {
 </MouseParallaxContainer>
 <div className='titleMain'>
 <main className="container">
-  <p className='text' style={{fontFamily:`'Ubuntu', sans-serif`}}>Hello There I'm </p>
+  <p className='text' style={{fontFamily: `'Libre Baskerville', serif`}}>Hello There I'm </p>
   <section className="animation">
     <div className="third"><div>Web Designer</div></div>
     <div className="second"><div>Web Developer</div></div>
     <div className="first"><div>George Iremadze</div></div>
   </section>
 </main>
-<p className='myTitle'>Hello, I work full time in web development. From 2021 - 2022: I worked on small projects as a freelancer, from 2022-2023 as a Junior Front End Developer in Poland remotely and from 2023 - until now I am working as a web developer in the USA remotely with my friend's company.
+<p className='myTitle'>I work full time in web development. From 2021 - 2022: I worked on small projects as a freelancer, from 2022-2023 as a Junior Front End Developer in Poland remotely and from 2023 - until now I am working as a web developer in the USA remotely in my friend's company.
 </p>
 </div>
     </div>

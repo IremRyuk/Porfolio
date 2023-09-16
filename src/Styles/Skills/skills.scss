@@ -15,7 +15,7 @@
 }
 .skillsList{
     padding: 50px 10px;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    overflow: auto;
 }
 
 
@@ -42,7 +41,7 @@ grid-template-columns: 20% 20% 20% 20%;
 }
 
 .imageParalax{
-    width: 70%;
+    width: 65%;
     object-fit: contain;
     border-radius: 50%;
     filter: drop-shadow(0px 0px 5px black);

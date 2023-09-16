@@ -5,17 +5,8 @@
     height: 80vh;
     background: transparent;
     color: #fff;
-    overflow: hidden;
     position: relative;
 }
-.parallax{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 
 // Box
 .main-boxs{
@@ -24,7 +15,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border: 2px solid green;
 }
 .avataranddescr{
     width: fit-content;
@@ -126,7 +116,7 @@
 }
 .myTitle{
     font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 // All Projects btn
 .rightTop {
