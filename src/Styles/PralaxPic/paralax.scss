@@ -1,3 +1,4 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 // Paralax
 .paralaxmain{
     width: 100vw;
@@ -5,6 +6,7 @@
     background: transparent;
     color: #fff;
     overflow: hidden;
+    position: relative;
 }
 .parallax{
     width: 100%;
@@ -39,13 +41,23 @@
     border-radius: 50%;
     margin-left: 50px;
 }
+
+
+// Titlecontainer
+.titleMain{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    width: 80vw;
+    color: white;
+}
 // Description
 .container {
+    width: fit-content;
     color: #e5e5e5;
     font-size: 2.26rem;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 20px;
     border: none;
 }
@@ -112,14 +124,16 @@
         margin-top: 0;
     }
 }
-
+.myTitle{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
 // All Projects btn
 .rightTop {
     padding: 20px;
-    width: 20vw;
+    width: fit-content;
     height: 200px;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
@@ -127,24 +141,27 @@
 // Project Button
 .proejcts {
     height: 50px;
-    width: 95%;
+    width: 20vw;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    transition: all 0.5s ease-in-out;
-}
-
-.proejcts:hover {
-    box-shadow: 0.5px 0.5px 150px #252525;
+    transition: all 0.1s ease-in-out;
+    background-color: rgb(66, 66, 66);
+    &:hover{
+        box-shadow: 0.5px 0.5px 150px #252525;
+    }
+    &:active{
+        scale: 1.1;
+    }
 }
 
 .type1::after {
     content: "Click Here";
     height: 50px;
-    width: 95%;
-    background-color: #008080;
+    width: 20vw;
+    background-color: #00806f;
     color: #fff;
     position: absolute;
     top: 0;
@@ -161,9 +178,9 @@
 .type1::before {
     content: "All Projects";
     height: 50px;
-    width: 95%;
-    background-color: #fff;
-    color: #008080;
+    width: 20vw;
+    background-color: rgb(13, 116, 85);
+    color: white;
     position: absolute;
     top: 0;
     left: 0;
@@ -187,7 +204,7 @@
 //   Contacts Button
 .contacts {
     padding: 0.1em 0.25em;
-    width: 95%;
+    width: 20vw;
     height: 4.2em;
     background-color: black;
     border: 0.08em solid #fff;

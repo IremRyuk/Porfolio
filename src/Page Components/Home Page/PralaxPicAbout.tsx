@@ -1,5 +1,6 @@
 import '../../Styles/PralaxPic/paralax.css'
 import IremRyuk from '../../Images/IremRyuk.jpg'
+import BG from '../../Images/bg1.jpg'
 import {
     MouseParallaxChild,
     MouseParallaxContainer
@@ -10,8 +11,8 @@ export default function PralaxPicAbout() {
     <div className='paralaxmain'>
       <MouseParallaxContainer
             className="parallax"
-            globalFactorX={0.3}
-            globalFactorY={0.3}
+            globalFactorX={0.2}
+            globalFactorY={0.2}
             resetOnLeave
           >
             <MouseParallaxChild
@@ -19,7 +20,7 @@ export default function PralaxPicAbout() {
               factorY={0.1}
               style={{
                 background:
-                  "url(https://cdnp1.stackassets.com/120ffd8c9b28dc256cb16fb78c9957758b77b45f/store/c62147ac21dd5ade032638f4613fc3475e0b3967ae3c174dad3273334b0e/sale_32415_article_image.jpg",
+                  `url(${BG})`,
                 backgroundPositionY: "50%",
                 transform: "scale(1.2)",
                 position: "absolute",
@@ -43,7 +44,7 @@ export default function PralaxPicAbout() {
               <img src={IremRyuk} alt='George Ireamdze' className='image'/>
             </MouseParallaxChild>
             
-            <MouseParallaxChild
+            {/* <MouseParallaxChild
               factorX={0.7}
               factorY={0.5}
               style={{
@@ -57,8 +58,9 @@ export default function PralaxPicAbout() {
     <div className="second"><div>Web Developer</div></div>
     <div className="first"><div>George Iremadze</div></div>
   </section>
+  <p className='text'>,From 2020 I am working in Web-Development,from '','', </p>
 </main>
-            </MouseParallaxChild>
+            </MouseParallaxChild> */}
             </div>
             <MouseParallaxChild
               factorX={0.9}
@@ -77,7 +79,19 @@ export default function PralaxPicAbout() {
 </div>
 </MouseParallaxChild>
 </div>
-          </MouseParallaxContainer>
+</MouseParallaxContainer>
+<div className='titleMain'>
+<main className="container">
+  <p className='text' style={{fontFamily:`'Ubuntu', sans-serif`}}>Hello There I'm </p>
+  <section className="animation">
+    <div className="third"><div>Web Designer</div></div>
+    <div className="second"><div>Web Developer</div></div>
+    <div className="first"><div>George Iremadze</div></div>
+  </section>
+</main>
+<p className='myTitle'>Hello, I work full time in web development. From 2021 - 2022: I worked on small projects as a freelancer, from 2022-2023 as a Junior Front End Developer in Poland remotely and from 2023 - until now I am working as a web developer in the USA remotely with my friend's company.
+</p>
+</div>
     </div>
   )
 }

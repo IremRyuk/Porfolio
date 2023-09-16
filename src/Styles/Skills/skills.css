@@ -1,8 +1,19 @@
+.textSkills {
+  margin-top: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  font-size: 50px;
+  background: -webkit-linear-gradient(288deg, #ff5b00, #4ad8ff, #ff00f2, white);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .skills {
   width: 100vw;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 90vh;
   display: flex;
   justify-content: center;
 }
@@ -10,47 +21,54 @@
 .skillsList {
   padding: 50px 10px;
   width: 80%;
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  gap: 50px;
-  justify-content: space-around;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.staticImg {
-  width: 55%;
+.parallax {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.imageGrid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: space-between;
+  justify-self: center;
+  grid-template-columns: 20% 20% 20% 20%;
+}
+
+.imageParalax {
+  width: 70%;
   -o-object-fit: contain;
      object-fit: contain;
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 5px black);
+  transition: 0.4s;
   cursor: pointer;
-  padding: 10px;
-  transition: 0.2s;
-  border-radius: 2.4mm;
-  filter: drop-shadow(0px 0px 1px black);
 }
-.staticImg:hover {
-  scale: 1.2;
-  filter: drop-shadow(0px 0px 4px white);
+.imageParalax:hover {
+  width: 80%;
+  filter: drop-shadow(0px 0px 10px white);
+}
+.imageParalax:active {
+  width: 80%;
+  filter: drop-shadow(0px 0px 20px white);
 }
 
 @media screen and (max-width: 1200px) {
-  .skillsList {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    gap: 40px;
-  }
   .staticImg {
     width: 65%;
   }
 }
 @media screen and (max-width: 900px) {
-  .skillsList {
-    width: 80%;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 40px;
-  }
   .staticImg {
     width: 60%;
   }
@@ -59,9 +77,6 @@
   .skillsList {
     padding: 10px;
     width: 100%;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 10px;
   }
   .staticImg {
     width: 70%;
