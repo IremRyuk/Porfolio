@@ -1,0 +1,29 @@
+.projectdescr {
+  width: 100vw;
+  padding: 20px 0px;
+}
+
+.mySwiper {
+  width: 90%;
+  height: 70vh;
+  position: relative;
+}
+
+.imgCur {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.projectName {
+  width: 100%;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, 0%);
+  font-size: 37px;
+  color: rgb(38, 165, 81);
+}/*# sourceMappingURL=descr.css.map */
