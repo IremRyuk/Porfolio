@@ -3,7 +3,6 @@ import {useEffect} from 'react'
 import $ from 'jquery'
 export default function Intro() {
     useEffect(()=>{
-
      // Remove Title And Launch Sliders
   setTimeout(()=>{
       $('.intro-title').css({display:'none'})

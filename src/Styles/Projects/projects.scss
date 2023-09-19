@@ -64,3 +64,15 @@
     transition: 0.2s all ease-in-out;
     background-color: rgba(255, 255, 255, 0.658)
 }
+
+// Mini Screens
+@media screen and (max-width:900px) {
+    .projects{
+        grid-template-columns: 90%;
+    }
+}
+@media screen and (max-width:500px) {
+    .projects{
+        grid-template-columns: 100%;
+    }
+}

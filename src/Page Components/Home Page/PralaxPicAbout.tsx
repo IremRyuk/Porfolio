@@ -5,6 +5,7 @@ import {
     MouseParallaxChild,
     MouseParallaxContainer
   } from "react-parallax-mouse";
+import CircleMenuContacts from '../../Components/CircleMenuContacts';
 
 export default function PralaxPicAbout() {
   return (
@@ -52,12 +53,7 @@ export default function PralaxPicAbout() {
               }}
             >
 <div className='rightTop'>
-  <button className='proejcts type1'></button>
-  <button className='contacts'>
-    <span className='cont-sp'>
-        Contact Me
-    </span>
-</button>
+  <CircleMenuContacts />
 </div>
 </MouseParallaxChild>
 </div>

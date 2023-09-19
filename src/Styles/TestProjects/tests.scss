@@ -46,6 +46,9 @@
   }
   
   .twitter {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
     margin-top: 1.5em;
     margin-left: -.9em;
     fill: #03A9F4;
@@ -79,9 +82,11 @@
   }
   
   .discord {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
     margin-top: -.9em;
     margin-left: -1.2em;
-    fill: #8c9eff;
   }
   
   .card1:hover {
@@ -121,5 +126,13 @@
   }
   
   .card4:hover .discord {
-    fill: white;
+    filter: drop-shadow(0px 0px 20px white);
+  }
+
+  // Mini Screens
+  @media screen and(max-width:650px){
+.card1,.card2,.card3,.card4{
+  width: 70px;
+  height: 70px;
+}
   }

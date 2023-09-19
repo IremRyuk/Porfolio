@@ -229,3 +229,66 @@
 .contacts span:not(active) {
     transition: all 0.3s;
 }
+
+
+
+@media screen and (max-width:1200px) {
+    .main-boxs{
+        width: 100vw;
+    }
+    .titleMain{
+        width: 100vw;
+        left: 0%;
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width:900px) {
+    .paralaxmain{
+        height: 90vh;
+    }
+    .titleMain{
+        bottom: 1%;
+    }
+    .myTitle{
+        font-size: 25px;
+    }
+    .container {
+        font-size: 2.20rem;
+    }
+}
+@media screen and (max-width:650px) {
+    .image {
+        width: 150px;
+        height: 150px;
+        margin-left: 5px;
+    }
+    .rightTop{
+        padding: 0px;
+        margin-right: 5px;
+    }
+    .main-boxs{
+        margin-top: 0px;
+        align-items: center;
+    }
+    .container{
+        width: max-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .myTitle{
+        font-size: 20px;
+    }
+    .first div {
+        padding: 0 5px;
+        background-color: #20a7d8;
+    }
+    .second div {
+        padding: 0 5px;
+        background-color: #CD921E;
+    }
+    .third div {
+        padding: 0 5px;
+        background-color: #c10528;
+    }
+}

@@ -1,5 +1,5 @@
 .intro-title {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   z-index: 55;
@@ -37,8 +37,8 @@
 }
 .left {
   position: fixed;
-  left: 0;
-  top: 0;
+  left: 0%;
+  top: 0%;
   width: 50vw;
   height: 100vh;
   background-color: black;
@@ -47,8 +47,8 @@
 
 .right {
   position: fixed;
-  right: 0;
-  top: 0;
+  right: 0%;
+  top: 0%;
   width: 50vw;
   height: 100vh;
   background-color: black;
