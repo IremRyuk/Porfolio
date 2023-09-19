@@ -1,11 +1,26 @@
+@import '../Defaults/App.scss';
+
+*{
+    --swiper-theme-color:rgb(0, 255, 234);
+}
 .projectdescr{
     width: 100vw;
     padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 .mySwiper{
     width: 90%;
     height: 70vh;
     position: relative; 
+    border-radius: 5mm;
+    box-shadow: 0px 0px 10px rgb(131, 131, 131);
+    &:hover{
+        box-shadow: 0px 0px 15px rgb(194, 194, 194);    
+    }
 }
 .imgCur{
     width: 100%;
@@ -20,5 +35,74 @@
     z-index: 10;
     transform: translate(-50%,0%);
     font-size: 37px;
+    font-weight: bold;
     color: rgb(38, 165, 81);
+}
+.description{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.line{
+    width: 99%;
+    border-top: 2px solid black;
+}
+.leftText{
+    width: 55%;
+    @include largeSc
+}
+.rightSoc{
+    width: 40%;
+    @include largeSc
+}
+
+
+
+// Swiper Js
+.swiper-button-next,.swiper-button-prev{
+    transition: 0.1s;
+    &:hover{
+        scale: 1.3;
+    }
+}
+@media screen and (max-width:1200px) {
+    .mySwiper{
+        height: fit-content;
+    }
+}
+@media screen and (max-width:768px) {
+    .mySwiper{
+        width: 98%;
+    }
+    .description{
+        width: 98%;
+    }
+    .leftText{
+        width: 55%;
+        @include mediumSc
+    }
+    .rightSoc{
+        width: 40%;
+        @include mediumSc
+    }
+}
+@media screen and (max-width:600px) {
+    .description{
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftText{
+        width: 100%;
+        @include smallSc
+    }
+    .rightSoc{
+        width: 100%;
+        @include smallSc
+    }
 }
