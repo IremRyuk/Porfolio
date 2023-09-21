@@ -36,7 +36,7 @@
 // Titlecontainer
 .titleMain{
     position: absolute;
-    bottom: 5%;
+    bottom: 15%;
     left: 10%;
     width: 80vw;
     color: white;
@@ -129,67 +129,67 @@
     gap: 20px;
 }
 // Project Button
-.proejcts {
-    height: 50px;
-    width: 20vw;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.1s ease-in-out;
-    background-color: rgb(66, 66, 66);
-    &:hover{
-        box-shadow: 0.5px 0.5px 150px #252525;
-    }
-    &:active{
-        scale: 1.1;
-    }
-}
+// .proejcts {
+//     height: 50px;
+//     width: 20vw;
+//     border: none;
+//     border-radius: 10px;
+//     cursor: pointer;
+//     position: relative;
+//     overflow: hidden;
+//     transition: all 0.1s ease-in-out;
+//     background-color: rgb(66, 66, 66);
+//     &:hover{
+//         box-shadow: 0.5px 0.5px 150px #252525;
+//     }
+//     &:active{
+//         scale: 1.1;
+//     }
+// }
 
-.type1::after {
-    content: "Click Here";
-    height: 50px;
-    width: 20vw;
-    background-color: #00806f;
-    color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(50px);
-    font-size: 1.3rem;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease-in-out;
-}
+// .type1::after {
+//     content: "Click Here";
+//     height: 50px;
+//     width: 20vw;
+//     background-color: #00806f;
+//     color: #fff;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     transform: translateY(50px);
+//     font-size: 1.3rem;
+//     font-weight: 600;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition: all 0.5s ease-in-out;
+// }
 
-.type1::before {
-    content: "All Projects";
-    height: 50px;
-    width: 20vw;
-    background-color: rgb(13, 116, 85);
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(0px) scale(1.2);
-    font-size: 1.2rem;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease-in-out;
-}
+// .type1::before {
+//     content: "All Projects";
+//     height: 50px;
+//     width: 20vw;
+//     background-color: rgb(13, 116, 85);
+//     color: white;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     transform: translateY(0px) scale(1.2);
+//     font-size: 1.2rem;
+//     font-weight: 600;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition: all 0.5s ease-in-out;
+// }
 
-.type1:hover::after {
-    transform: translateY(0) scale(1.2);
-}
+// .type1:hover::after {
+//     transform: translateY(0) scale(1.2);
+// }
 
-.type1:hover::before {
-    transform: translateY(-50px) scale(0) rotate(120deg);
-}
+// .type1:hover::before {
+//     transform: translateY(-50px) scale(0) rotate(120deg);
+// }
 
 //   Contacts Button
 .contacts {
@@ -231,13 +231,16 @@
 }
 
 
+// Mini Screens
 
 @media screen and (max-width:1200px) {
     .main-boxs{
         width: 100vw;
+        justify-content: space-between;
     }
     .titleMain{
         width: 100vw;
+        bottom: 10%;
         left: 0%;
         padding: 0px 20px;
     }
