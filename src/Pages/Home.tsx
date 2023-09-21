@@ -1,8 +1,8 @@
-import Intro from "../Page Components/Home Page/Intro";
+// import Intro from "../Page Components/Home Page/Intro";
 import PralaxPicAbout from "../Page Components/Home Page/PralaxPicAbout";
 import ProgrSkills from "../Page Components/Home Page/ProgrSkills";
 import Projects from "../Page Components/Home Page/Projects";
-import {useEffect} from 'react'
+import { useEffect } from "react";
 
 export default function Home() {
     // Set Page Top
@@ -11,7 +11,7 @@ export default function Home() {
     },[])
   return (
     <>
-    <Intro />
+    {/* <Intro /> */}
     <PralaxPicAbout />
     <ProgrSkills />
     <Projects />
