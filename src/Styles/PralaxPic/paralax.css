@@ -8,7 +8,7 @@
 }
 
 .main-boxs {
-  margin-top: 50px;
+  margin-top: 70px;
   width: 85vw;
   display: flex;
   justify-content: space-between;
@@ -249,7 +249,7 @@
     margin-right: 5px;
   }
   .main-boxs {
-    margin-top: 0px;
+    margin-top: 40px;
     align-items: center;
   }
   .container {
