@@ -50,7 +50,7 @@ useEffect(()=>{
     Profile
 </button>
 {/* Contcts */}
-    <button className='con-btn' onClick={()=>navigate('/cotnacts')}>
+    <button className='con-btn' onClick={()=>navigate('/contacts')}>
     CONTACT ME
     <div id="clip">
         <div id="leftTop" className="corner"></div>

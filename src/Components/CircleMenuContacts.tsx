@@ -1,5 +1,4 @@
 import '../Styles/TestProjects/tests.css'
-import Phone from '../Images/phone.webp'
 
 export default function CircleMenuContacts() {
   return (
