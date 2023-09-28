@@ -45,6 +45,16 @@
         "websiteAdrress":"https://designryuk.netlify.app/",
         "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
         "github":"https://github.com/IremRyuk?tab=repositories"
+    },
+    {
+        "id": 6,
+        "names": "HV-Travel",
+        "image": ["https://imagestorageryuk.netlify.app/assets/Travel-b34e8be2.png", "https://imagestorageryuk.netlify.app/assets/Travel2-9f7331ea.png", "https://imagestorageryuk.netlify.app/assets/Travel3-cd93264f.png", "https://imagestorageryuk.netlify.app/assets/Travel4-0a32fd3c.png"],
+        "webSiteDescrition":"On Hv-Travel website you can explore new and beautiful places around the world. Reserve your favorite seat and easily contact the support center 24/7.",
+        "myJob":"The site is built on react js, you can checkout new places or reserve your seat.",
+        "websiteAdrress":"https://hv-travel.netlify.app/",
+        "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
+        "github":"https://github.com/IremRyuk?tab=repositories"
     }
 
 ]
