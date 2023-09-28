@@ -8,19 +8,19 @@ export default function Nav() {
     const navigate = useNavigate()
     const AppBarMui1 = {
         position:'fixed',
-        zInedx:'200',
+        zIndex:'50',
         top:'0%',
         left:'0%',
         width:'100vw',
-        height:'fit-content',
+        height:'fit-content',   
         background:'transparent',
         backdropFilter:'blur(15px)',
         padding:'0px 5px',
-        boxShadow:'none'
+        boxShadow:'none',
     }
     const AppBarMui2 = {
         position:'fixed',
-        zInedx:'200',
+        zIndex:'45',
         top:'0%',
         left:'0%',
         width:'100vw',

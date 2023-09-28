@@ -7,8 +7,10 @@ import {
   } from "react-parallax-mouse";
 import CircleMenuContacts from '../../Components/CircleMenuContacts';
 import Table from './Table';
+import { useNavigate } from 'react-router-dom';
 
 export default function ContactsIntro() {
+  const navigate = useNavigate()
   return (
     <div className='paralaxmain' style={{overflow:'none',height:'100vh'}}>
       <MouseParallaxContainer
@@ -43,7 +45,7 @@ export default function ContactsIntro() {
                 filter: "invert(0)",
               }}
             >
-              <img src={IremRyuk} alt='George Ireamdze' className='image'/>
+              <img src={IremRyuk} alt='George Ireamdze' className='image' onClick={()=>navigate('/')}/>
             </MouseParallaxChild>
             </div>
             <MouseParallaxChild

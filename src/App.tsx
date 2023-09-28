@@ -5,16 +5,12 @@ import ProjectDescr from './Pages/ProjectDescr'
 import MoveTop from './Components/MoveTop'
 import Nav from './Components/Nav'
 import Contacts from './Pages/Contacts'
-// import CostumCursor from './Components/CostumCursor'
 
 
 function App() {
   return (
     <div className='App'>
-      
-      {/* Cursor */}
-      {/* <CostumCursor /> */}
-<Nav />
+      <Nav />
       {/* Pages */}
       <MoveTop />
     <Routes>

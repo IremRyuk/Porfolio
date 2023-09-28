@@ -9,7 +9,7 @@ export default function MoveTop() {
         bottom:'5%',
         width:'min-content',
         height:'min-content',
-        zIndex:'100',
+        zIndex:'50',
         cursor:'pointer',
         transition:'0.1s',
         '&:hover':{
