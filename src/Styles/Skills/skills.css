@@ -45,7 +45,7 @@
 }
 
 .imageParalax {
-  width: 65%;
+  width: 60%;
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 50%;
@@ -54,11 +54,11 @@
   cursor: pointer;
 }
 .imageParalax:hover {
-  width: 80%;
+  width: 70%;
   filter: drop-shadow(0px 0px 10px white);
 }
 .imageParalax:active {
-  width: 80%;
+  width: 70%;
   filter: drop-shadow(0px 0px 20px white);
 }
 
