@@ -1,31 +1,19 @@
 import {AppBar,Toolbar,Stack} from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import '../Styles/Nav/nav.css'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
+import $ from 'jquery'
 
 export default function Nav() {
-    const [bg,setBg] = useState<boolean>(true)
     const navigate = useNavigate()
-    const AppBarMui1 = {
-        position:'fixed',
-        zIndex:'50',
-        top:'0%',
-        left:'0%',
-        width:'100vw',
-        height:'fit-content',   
-        background:'#06040461',
-        padding:'0px 5px',
-        boxShadow:'none',
-    }
-    const AppBarMui2 = {
+    const AppBarMui = {
         position:'fixed',
         zIndex:'45',
         top:'0%',
         left:'0%',
         width:'100vw',
         height:'fit-content',
-        background:'transparent',
-        backdropFilter:'blur(3px)',
+        background:'rgb(6 4 4 / 7%)',
         padding:'0px 5px',
         boxShadow:'none'
     }
@@ -35,14 +23,17 @@ export default function Nav() {
         alignItems:'center'
     }
     const changeBg = () => {
-        window.scrollY >=500?setBg(true):setBg(false)
+        window.scrollY >=500?$('.css-1ak2z8z-MuiPaper-root-MuiAppBar-root').css({background:'rgb(31 31 31 / 35%)'}):$('.css-1ak2z8z-MuiPaper-root-MuiAppBar-root').css({background:'rgb(6 4 4 / 7%)'})
     }
+useEffect(()=>{
+    console.log(window.scrollY)
+})
 useEffect(()=>{
     window.addEventListener('scroll',changeBg)
 })
     
   return (
-    <AppBar sx={bg?AppBarMui1:AppBarMui2}>
+    <AppBar sx={AppBarMui}>
       <Toolbar>
 <Stack direction='row' sx={BoxMuiTexts}>
     {/* Profile */}
@@ -57,8 +48,8 @@ useEffect(()=>{
     <span id="rightArrow" className="arrow"></span>
     <span id="leftArrow" className="arrow"></span>
 </button>
-{/* Contcts */}
-    <button className='con-btn' onClick={()=>navigate('/contacts')}>
+{/* Contcts */} 
+    <button className='con-btn' onClick={()=>navigate('/contacts')}> 
     CONTACT ME
     <div id="clip">
         <div id="leftTop" className="corner"></div>
