@@ -13,8 +13,7 @@ export default function Nav() {
         left:'0%',
         width:'100vw',
         height:'fit-content',   
-        background:'transparent',
-        backdropFilter:'blur(15px)',
+        background:'#06040461',
         padding:'0px 5px',
         boxShadow:'none',
     }
@@ -25,7 +24,8 @@ export default function Nav() {
         left:'0%',
         width:'100vw',
         height:'fit-content',
-        background:'#2b2b2bcf',
+        background:'transparent',
+        backdropFilter:'blur(3px)',
         padding:'0px 5px',
         boxShadow:'none'
     }
@@ -35,19 +35,27 @@ export default function Nav() {
         alignItems:'center'
     }
     const changeBg = () => {
-        window.scrollY >=100?setBg(true):setBg(false)
+        window.scrollY >=500?setBg(true):setBg(false)
     }
 useEffect(()=>{
     window.addEventListener('scroll',changeBg)
 })
     
   return (
-    <AppBar sx={bg?AppBarMui2:AppBarMui1}>
+    <AppBar sx={bg?AppBarMui1:AppBarMui2}>
       <Toolbar>
 <Stack direction='row' sx={BoxMuiTexts}>
     {/* Profile */}
-<button className="profile-btn" onClick={()=>navigate('/')}>
-    Profile
+    <button className='con-btn' onClick={()=>navigate('/')}>
+    PROFILE
+    <div id="clip">
+        <div id="leftTop" className="corner"></div>
+        <div id="rightBottom" className="corner"></div>
+        <div id="rightTop" className="corner"></div>
+        <div id="leftBottom" className="corner"></div>
+    </div>
+    <span id="rightArrow" className="arrow"></span>
+    <span id="leftArrow" className="arrow"></span>
 </button>
 {/* Contcts */}
     <button className='con-btn' onClick={()=>navigate('/contacts')}>

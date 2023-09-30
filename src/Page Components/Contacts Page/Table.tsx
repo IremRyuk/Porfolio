@@ -39,9 +39,9 @@ export default function Table() {
     }
     const arrCon:{name:string,cont:string}[] = [
         {name:'Gmail',cont:'giorgiiremadze98@gmail.com'},
-        {name:'Linkedin',cont:'https://www.linkedin.com/in/giorgi-iremadze-a035a9229/'},
         {name:'GitHub',cont:'https://github.com/IremRyuk?tab=repositories'},
-        {name:'Phone Number',cont:'+995591603603'},
+        {name:'Phone',cont:'+995591603603'},
+        {name:'Linkedin',cont:'https://www.linkedin.com/in/giorgi-iremadze-a035a9229/'}
     ]
     const clipBoard = (text:string) => {
         navigator.clipboard.writeText(text)
@@ -57,7 +57,7 @@ export default function Table() {
     <Typography sx={Title1}>{res.name}</Typography>
     {/* <div className="middleLine"></div> */}
     <Typography sx={Title2} onClick={() => clipBoard(res.cont)}>{res.cont}</Typography>
-    <SnackBar isOpen={open} soc={res.name}/>
+    <SnackBar isOpen={open}/>
 </Stack> 
 ))}
 </Box>

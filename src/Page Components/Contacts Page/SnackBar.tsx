@@ -9,14 +9,13 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
   });
 type Bool = {
   isOpen:boolean,
-  soc:string
 }
-export default function SnackBar({isOpen,soc}:Bool) {
+export default function SnackBar({isOpen}:Bool) {
   return (
     <Stack sx={{position:'absolute',right:'5%',bottom:'5%'}}>
       <Snackbar open={isOpen} anchorOrigin={{ vertical:"bottom", horizontal:"right" }}>
         <Alert severity="info" sx={{ width: '100%' }}>
-        {soc} Text Has Been Coped
+        Text Has Been Coped
         </Alert>
       </Snackbar>
       </Stack>

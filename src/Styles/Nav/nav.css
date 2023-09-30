@@ -1,5 +1,8 @@
 .profile-btn {
   position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 10px 20px;
   border-radius: 7px;
   border: 2.4px solid rgb(61, 106, 255);
@@ -7,15 +10,16 @@
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
-  background: transparent;
-  color: rgb(94, 209, 255);
+  background: #2761c3;
+  color: white;
   overflow: hidden;
   box-shadow: 0 0 0 0 transparent;
   transition: all 0.2s ease-in;
   cursor: pointer;
 }
 .profile-btn:hover {
-  background: rgb(61, 106, 255);
+  background: #2761c3;
+  color: rgb(94, 209, 255);
   box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
   transition: all 0.2s ease-out;
 }
@@ -139,7 +143,7 @@
   background-color: #2761c3;
   box-shadow: inset 1px 1px 8px #2781c3;
   transform: scale(1) rotate(45deg);
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 #rightTop {
@@ -163,23 +167,23 @@
 }
 
 .con-btn:hover #leftTop {
-  -webkit-animation: 0.1s ease-in-out 0.05s both changeColor8, 0.2s linear 0.4s both lightEffect8;
-          animation: 0.1s ease-in-out 0.05s both changeColor8, 0.2s linear 0.4s both lightEffect8;
+  -webkit-animation: 0.1s ease-in-out 0.05s both changeColor8, 0.2s linear 0.2s both lightEffect8;
+          animation: 0.1s ease-in-out 0.05s both changeColor8, 0.2s linear 0.2s both lightEffect8;
 }
 
 .con-btn:hover #rightTop {
-  -webkit-animation: 0.1s ease-in-out 0.15s both changeColor8, 0.2s linear 0.4s both lightEffect8;
-          animation: 0.1s ease-in-out 0.15s both changeColor8, 0.2s linear 0.4s both lightEffect8;
+  -webkit-animation: 0.1s ease-in-out 0.15s both changeColor8, 0.2s linear 0.2s both lightEffect8;
+          animation: 0.1s ease-in-out 0.15s both changeColor8, 0.2s linear 0.2s both lightEffect8;
 }
 
 .con-btn:hover #rightBottom {
-  -webkit-animation: 0.1s ease-in-out 0.25s both changeColor8, 0.2s linear 0.4s both lightEffect8;
-          animation: 0.1s ease-in-out 0.25s both changeColor8, 0.2s linear 0.4s both lightEffect8;
+  -webkit-animation: 0.1s ease-in-out 0.25s both changeColor8, 0.2s linear 0.2s both lightEffect8;
+          animation: 0.1s ease-in-out 0.25s both changeColor8, 0.2s linear 0.2s both lightEffect8;
 }
 
 .con-btn:hover #leftBottom {
-  -webkit-animation: 0.1s ease-in-out 0.35s both changeColor8, 0.2s linear 0.4s both lightEffect8;
-          animation: 0.1s ease-in-out 0.35s both changeColor8, 0.2s linear 0.4s both lightEffect8;
+  -webkit-animation: 0.1s ease-in-out 0.35s both changeColor8, 0.2s linear 0.2s both lightEffect8;
+          animation: 0.1s ease-in-out 0.35s both changeColor8, 0.2s linear 0.2s both lightEffect8;
 }
 
 .con-btn:hover .corner {
