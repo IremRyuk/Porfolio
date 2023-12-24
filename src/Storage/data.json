@@ -2,7 +2,7 @@
     {
         "id": 1,
         "names": "Artfinder",
-        "image": ["https://imagestorageryuk.netlify.app/assets/art1-2f120f57.webp", "https://imagestorageryuk.netlify.app/assets/art2-b5f10980.webp", "https://imagestorageryuk.netlify.app/assets/art3-4e0a211e.webp"],
+        "image": ["/Images/Page Images/art1.webp", "/Images/Page Images/art2.webp", "/Images/Page Images/art3.webp"],
         "webSiteDescrition":"Artfinder is a website where you can buy paintings, photographs, drawings,sculptures or digital arts",
         "myJob":"My main work on this website was to add new filters, styles, and pricing, as well as creating a new page where you could create new events and send those events as notifications to custom clients in Gmail.",
         "websiteAdrress":"https://www.artfinder.com/",
@@ -12,7 +12,7 @@
     }, {
         "id": 2,
         "names": "JobsList",
-        "image": ["https://imagestorageryuk.netlify.app/assets/jobs1-6a0e8691.webp", "https://imagestorageryuk.netlify.app/assets/jobs2-be06ef42.webp", "https://imagestorageryuk.netlify.app/assets/jobs3-caaf1f97.webp", "https://imagestorageryuk.netlify.app/assets/jobs11-e7e2911c.webp"],
+        "image": ["/Images/Page Images/jobs1.webp", "/Images/Page Images/jobs2.webp", "/Images/Page Images/jobs3.webp"],
         "webSiteDescrition":"JobsList is place where you can find new job by salary,location,experience. You can sign up and post your company jobs,edit your current job or remove.",
         "myJob":"I fully created this website all my own, this is mern stack website , i used mongodb for  Back End and for Front End react js. You can Sign Up / Log In, Also reset your forgotten password. Post new job,company can post one or multiple jobs, only owner of job can edit or remove current job.",
         "websiteAdrress":"https://ryukjobs.netlify.app/",
@@ -23,15 +23,26 @@
     }, {
         "id": 3,
         "names": "Momondo",
-        "image": ["https://imagestorageryuk.netlify.app/assets/momondo1-fb24e32a.webp", "https://imagestorageryuk.netlify.app/assets/momondo2-dacae6a6.webp", "https://imagestorageryuk.netlify.app/assets/momondo3-5247b940.webp"],
+        "image": ["/Images/Page Images/momondo1.webp", "/Images/Page Images/momondo2.webp", "/Images/Page Images/momondo3.webp"],
         "webSiteDescrition":"Momondo is website where you can buy/book tickets of flights and airline. Rent cars and find stays. On this website you can explore new places",
         "myJob":"On this website i used to add new styles, new places, change structure of code(optimization) and change website looks.",
         "websiteAdrress":"https://www.artfinder.com/",
         "skills":"Figma, Jquery, Javascript, Sass, Git, Github"
-    }, {
+    },
+    {
         "id": 4,
+        "names": "MyBakuriani",
+        "image": ["/Images/Page Images/mybak1.PNG", "/Images/Page Images/mybak2.PNG", "/Images/Page Images/mybak3.PNG"],
+        "webSiteDescrition":"In My Bakuriani you can find transportation, apartments in bakuriani, pizzeria. Also you can get : Craftsman service, Furniture making and restoration, Arrangement of living spaces, Linen washing service  ...",
+        "myJob":"this website is build on react js , website is informational and you can get informations about transport , food, and apartments",
+        "websiteAdrress":"https://ryuktravel.netlify.app/",
+        "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
+        "github":"Private By Owner"
+    }, 
+    {
+        "id": 5,
         "names": "Pizza",
-        "image": ["https://imagestorageryuk.netlify.app/assets/pizza1-2a816dd9.webp", "https://imagestorageryuk.netlify.app/assets/pizza2-5558a4d5.webp", "https://imagestorageryuk.netlify.app/assets/pizza3-d66c4df9.webp", "https://imagestorageryuk.netlify.app/assets/pizza11-83fb927b.webp", "https://imagestorageryuk.netlify.app/assets/pizza33-45a113df.webp"],
+        "image": ["/Images/Page Images/pizza1.webp", "/Images/Page Images/pizza2.webp", "/Images/Page Images/pizza3.webp", "/Images/Page Images/pizza11.webp", "/Images/Page Images/pizza33.webp"],
         "webSiteDescrition":"PizzaLand is company where you can see current meals , select your meals,choose size of meal and add to your cart, you can select multiple meals at the same time and finally you can send it to company.",
         "myJob":"Website is build on react js. Main product is pizza and you can choose, edit or remove item from cart.",
         "websiteAdrress":"https://ryukpizza.netlify.app/",
@@ -39,22 +50,22 @@
         "github":"https://github.com/IremRyuk?tab=repositories"
     },
     {
-        "id": 5,
-        "names": "ToolLand",
-        "image": ["https://imagestorageryuk.netlify.app/assets/design1-5004f41c.webp", "https://imagestorageryuk.netlify.app/assets/design2-4a16a22b.webp", "https://imagestorageryuk.netlify.app/assets/design3-149b3ca1.webp", "https://imagestorageryuk.netlify.app/assets/design4-90a213d8.webp"],
-        "webSiteDescrition":"On the ToolLand website, you can draw anything (edit, delete, change color or background), save your personal information, get information about your city, country and internet speed, convert US units of measurement to European.",
-        "myJob":"The site is built on react js, this website can be used to kill time, store groceries (edit, delete) or get information about your device.",
-        "websiteAdrress":"https://designryuk.netlify.app/",
+        "id": 6,
+        "names": "HV-Travel",
+        "image": ["/Images/Page Images/Travel.png", "/Images/Page Images/Travel2.png", "/Images/Page Images/Travel3.png", "/Images/Page Images/Travel4.png"],
+        "webSiteDescrition":"On Hv-Travel website you can explore new and beautiful places around the world. Reserve your favorite seat and easily contact the support center 24/7.",
+        "myJob":"The site is built on react js, you can checkout new places or reserve your seat.",
+        "websiteAdrress":"https://ryuktravel.netlify.app/",
         "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
         "github":"https://github.com/IremRyuk?tab=repositories"
     },
     {
-        "id": 6,
-        "names": "HV-Travel",
-        "image": ["https://imagestorageryuk.netlify.app/assets/Travel-b34e8be2.png", "https://imagestorageryuk.netlify.app/assets/Travel2-9f7331ea.png", "https://imagestorageryuk.netlify.app/assets/Travel3-cd93264f.png", "https://imagestorageryuk.netlify.app/assets/Travel4-0a32fd3c.png"],
-        "webSiteDescrition":"On Hv-Travel website you can explore new and beautiful places around the world. Reserve your favorite seat and easily contact the support center 24/7.",
-        "myJob":"The site is built on react js, you can checkout new places or reserve your seat.",
-        "websiteAdrress":"https://ryuktravel.netlify.app/",
+        "id": 7,
+        "names": "ToolLand",
+        "image": ["/Images/Page Images/design1.webp", "/Images/Page Images/design2.webp", "/Images/Page Images/design3.webp", "/Images/Page Images/design4.webp"],
+        "webSiteDescrition":"On the ToolLand website, you can draw anything (edit, delete, change color or background), save your personal information, get information about your city, country and internet speed, convert US units of measurement to European.",
+        "myJob":"The site is built on react js, this website can be used to kill time, store groceries (edit, delete) or get information about your device.",
+        "websiteAdrress":"https://designryuk.netlify.app/",
         "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
         "github":"https://github.com/IremRyuk?tab=repositories"
     }
