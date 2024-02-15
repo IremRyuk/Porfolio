@@ -69,7 +69,7 @@ export default function PralaxPicAbout() {
     <div className="first"><div>George Iremadze</div></div>
   </section>
 </main>
-<p className='myTitle'>Hello there I am full-stack web developer, from 2021 - 2022: I worked on small projects as a freelancer, from 2022-2023 as a Junior Front End Developer in Poland remotely and from 2023 - until now I am working as a web developer in the USA remotely in my friend's company.
+<p className='myTitle'>Hello there I am full-stack web developer, from 2018 - 2020: I worked on small projects as a freelancer, from 2020 to 2022 as a Front End Developer remotely and from 2022 - till now I am working as a web developer remotely at Momondo and Freelancing projects.
 </p>
 </div>
     </div>
