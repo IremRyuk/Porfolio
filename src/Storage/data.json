@@ -22,23 +22,23 @@
         
     }, {
         "id": 3,
-        "names": "Momondo",
-        "image": ["/Images/Page Images/momondo1.webp", "/Images/Page Images/momondo2.webp", "/Images/Page Images/momondo3.webp"],
-        "webSiteDescrition":"Momondo is website where you can buy/book tickets of flights and airline. Rent cars and find stays. On this website you can explore new places",
+        "names": "Almosafer",
+        "image": ["/Images/Page Images/almosafer1.PNG", "/Images/Page Images/almo2.PNG", "/Images/Page Images/almo3.PNG"],
+        "webSiteDescrition":"Almosafer is website where you can buy/book tickets of flights and airline. Rent cars and find stays. On this website you can explore new places",
         "myJob":"On this website i used to add new styles, new places, change structure of code(optimization) and change website looks.",
-        "websiteAdrress":"https://www.momondo.com/",
+        "websiteAdrress":"https://global.almosafer.com/",
         "skills":"Figma, Jquery, Javascript, Sass, Git, Github"
     },
     {
         "id": 4,
-        "names": "MyBakuriani",
-        "image": ["/Images/Page Images/mybak1.PNG", "/Images/Page Images/mybak2.PNG", "/Images/Page Images/mybak3.PNG"],
-        "webSiteDescrition":"In My Bakuriani you can find transportation, apartments in bakuriani, pizzeria. Also you can get : Craftsman service, Furniture making and restoration, Arrangement of living spaces, Linen washing service  ...",
-        "myJob":"this website is build on react js , website is informational and you can get informations about transport , food, and apartments",
-        "websiteAdrress":"https://mybakuriani.ge/",
+        "names": "ToolLand",
+        "image": ["/Images/Page Images/design1.webp", "/Images/Page Images/design2.webp", "/Images/Page Images/design3.webp", "/Images/Page Images/design4.webp"],
+        "webSiteDescrition":"On the ToolLand website, you can draw anything (edit, delete, change color or background), save your personal information, get information about your city, country and internet speed, convert US units of measurement to European.",
+        "myJob":"The site is built on react js, this website can be used to kill time, store groceries (edit, delete) or get information about your device.",
+        "websiteAdrress":"https://designryuk.netlify.app/",
         "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
-        "github":"Private By Owner"
-    }, 
+        "github":"https://github.com/IremRyuk?tab=repositories"
+    },
     {
         "id": 5,
         "names": "Pizza",
@@ -61,13 +61,13 @@
     },
     {
         "id": 7,
-        "names": "ToolLand",
-        "image": ["/Images/Page Images/design1.webp", "/Images/Page Images/design2.webp", "/Images/Page Images/design3.webp", "/Images/Page Images/design4.webp"],
-        "webSiteDescrition":"On the ToolLand website, you can draw anything (edit, delete, change color or background), save your personal information, get information about your city, country and internet speed, convert US units of measurement to European.",
-        "myJob":"The site is built on react js, this website can be used to kill time, store groceries (edit, delete) or get information about your device.",
-        "websiteAdrress":"https://designryuk.netlify.app/",
+        "names": "MyBakuriani",
+        "image": ["/Images/Page Images/mybak1.PNG", "/Images/Page Images/mybak2.PNG", "/Images/Page Images/mybak3.PNG"],
+        "webSiteDescrition":"In My Bakuriani you can find transportation, apartments in bakuriani, pizzeria. Also you can get : Craftsman service, Furniture making and restoration, Arrangement of living spaces, Linen washing service  ...",
+        "myJob":"this website is build on react js , website is informational and you can get informations about transport , food, and apartments",
+        "websiteAdrress":"https://mybakuriani.ge/",
         "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
-        "github":"https://github.com/IremRyuk?tab=repositories"
+        "github":"Private By Owner"
     }
 
 ]
