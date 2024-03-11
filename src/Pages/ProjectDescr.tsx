@@ -63,7 +63,7 @@ export default function ProjectDescr() {
     <div className="rightSoc">
       <p>Skills: {FilteredData.skills}</p>
       <center><div className='line'></div></center>
-      <p>My Repositories: {FilteredData.github === "Private By Owner"?<span>{FilteredData.github}</span>:<a href={`${FilteredData.github}`} target="_blank" style={{color:'rgb(0 255 147)'}}>{FilteredData.github}</a>}</p>
+      <p>Repository: {FilteredData.github === "Private By Owner"?<span>{FilteredData.github}</span>:<a href={`${FilteredData.github}`} target="_blank" style={{color:'rgb(0 255 147)'}}>{FilteredData.github}</a>}</p>
     </div>
     </div>
     </div>
