@@ -66,7 +66,7 @@
         "image": ["/Images/Page Images/mybak1.PNG", "/Images/Page Images/mybak2.PNG", "/Images/Page Images/mybak3.PNG"],
         "webSiteDescrition":"In My Bakuriani you can find transportation, apartments in bakuriani, pizzeria. Also you can get : Craftsman service, Furniture making and restoration, Arrangement of living spaces, Linen washing service  ...",
         "myJob":"this website is build on react js , website is informational and you can get informations about transport , food, and apartments",
-        "websiteAdrress":"https://mybakuriani.ge/",
+        "websiteAdrress":"https://mybakuriani.netlify.app/",
         "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
         "github":"Private By Owner"
     }

@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 // import required modules
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 export default function ProjectDescr() {
-  // Filter Data iwth Params
+  // Filter Data with Params
     const {Id}:any = useParams()
     const FilteredData:{id:number;names:string;image:string[];webSiteDescrition:string;websiteAdrress:string;myJob:string;skills:string;github?:string;}|undefined = Data.find(res=>res.id === parseInt(Id))
   // Set Page Top
