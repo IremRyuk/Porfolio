@@ -38,13 +38,14 @@ export default function Table() {
         }
     }
     const arrCon:{name:string,cont:string}[] = [
-        {name:'Gmail',cont:'giorgiiremadze98@gmail.com'},
+        {name:'Gmail',cont:' giorgi.iremadze98@gmail.com'},
         {name:'GitHub',cont:'https://github.com/IremRyuk?tab=repositories'},
-        {name:'Phone',cont:'+995591603603'},
-        {name:'Linkedin',cont:'https://www.linkedin.com/in/giorgi-iremadze-a035a9229/'}
+        {name:'Phone',cont:' +48782817904'},
+        {name:'Linkedin',cont:'https://www.linkedin.com/in/george-iremadze-684a25360/'}
     ]
     const clipBoard = (text:string) => {
         navigator.clipboard.writeText(text)
+        console.log(text)
         setOpen(e=>!e)
         setTimeout(()=>{
             setOpen(e=>!e)
