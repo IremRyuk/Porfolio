@@ -64,9 +64,9 @@ export default function PralaxPicAbout() {
 <main className="container">
   <p className='text' style={{fontFamily: `'Libre Baskerville', serif`}}>Hello There I'm </p>
   <section className="animation">
-    <div className="third"><div>Web Designer</div></div>
-    <div className="second"><div>Web Developer</div></div>
-    <div className="first"><div>George Iremadze</div></div>
+    <div className="third"><div>Web Developer</div></div>
+    <div className="second"><div>Content Creator</div></div>
+    <div className="first"><div>SEO Specialist</div></div>
   </section>
 </main>
 <p className='myTitle'>Hello there I am full-stack web developer, from 2018 - 2023: I worked in Web Development and SEO, from 2023 to 2024 - Project development, SEO and Social Media Management, from 2025 - till now I am working in SEO, Web Development and Social Media.

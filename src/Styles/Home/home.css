@@ -11,20 +11,10 @@
   background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
   background-size: 80%;
-  -webkit-animation: AnimeText 4s linear;
-          animation: AnimeText 4s linear;
+  animation: AnimeText 4s linear;
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
-}
-
-@-webkit-keyframes AnimeText {
-  0% {
-    background-position: -500%;
-  }
-  100% {
-    background-position: 500%;
-  }
 }
 
 @keyframes AnimeText {
@@ -55,24 +45,7 @@
   z-index: 50;
 }
 
-@-webkit-keyframes LeftSlide {
-  0% {
-    width: 50vw;
-  }
-  100% {
-    width: 0;
-  }
-}
-
 @keyframes LeftSlide {
-  0% {
-    width: 50vw;
-  }
-  100% {
-    width: 0;
-  }
-}
-@-webkit-keyframes RightSlide {
   0% {
     width: 50vw;
   }
