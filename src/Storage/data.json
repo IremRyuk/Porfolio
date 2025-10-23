@@ -9,19 +9,9 @@
         "skills":"Figma,Jquery, Javascript, Sass, Github",
         "github":"https://github.com/IremRyuk?tab=repositories"
 
-    }, {
+    }, 
+    {
         "id": 2,
-        "names": "JobsList",
-        "image": ["/Images/Page Images/jobs1.webp", "/Images/Page Images/jobs2.webp", "/Images/Page Images/jobs3.webp"],
-        "webSiteDescrition":"JobsList is place where you can find new job by salary,location,experience. You can sign up and post your company jobs,edit your current job or remove.",
-        "myJob":"I fully created this website all my own, this is mern stack website , i used mongodb for  Back End and for Front End react js. You can Sign Up / Log In, Also reset your forgotten password. Post new job,company can post one or multiple jobs, only owner of job can edit or remove current job.",
-        "websiteAdrress":"https://ryukjobs.netlify.app/",
-        "skills":"Figma, ReactJs, Jquery, Javascript, Sass, MongoDb, PostMan, Git, Github",
-        "github":"https://github.com/IremRyuk?tab=repositories"
-        
-        
-    }, {
-        "id": 3,
         "names": "Almosafer",
         "image": ["/Images/Page Images/almosafer1.PNG", "/Images/Page Images/almo2.PNG", "/Images/Page Images/almo3.PNG"],
         "webSiteDescrition":"Almosafer is website where you can buy/book tickets of flights and airline. Rent cars and find stays. On this website you can explore new places",
@@ -31,7 +21,7 @@
         "github":"Private By Owner"
     },
     {
-        "id": 4,
+        "id": 3,
         "names": "ToolLand",
         "image": ["/Images/Page Images/design1.webp", "/Images/Page Images/design2.webp", "/Images/Page Images/design3.webp", "/Images/Page Images/design4.webp"],
         "webSiteDescrition":"On the ToolLand website, you can draw anything (edit, delete, change color or background), save your personal information, get information about your city, country and internet speed, convert US units of measurement to European.",
@@ -41,27 +31,7 @@
         "github":"https://github.com/IremRyuk?tab=repositories"
     },
     {
-        "id": 5,
-        "names": "Pizza",
-        "image": ["/Images/Page Images/pizza1.webp", "/Images/Page Images/pizza2.webp", "/Images/Page Images/pizza3.webp", "/Images/Page Images/pizza11.webp", "/Images/Page Images/pizza33.webp"],
-        "webSiteDescrition":"PizzaLand is company where you can see current meals , select your meals,choose size of meal and add to your cart, you can select multiple meals at the same time and finally you can send it to company.",
-        "myJob":"Website is build on react js. Main product is pizza and you can choose, edit or remove item from cart.",
-        "websiteAdrress":"https://ryukpizza.netlify.app/",
-        "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
-        "github":"https://github.com/IremRyuk?tab=repositories"
-    },
-    {
-        "id": 6,
-        "names": "HV-Travel",
-        "image": ["/Images/Page Images/Travel.png", "/Images/Page Images/Travel2.png", "/Images/Page Images/Travel3.png", "/Images/Page Images/Travel4.png"],
-        "webSiteDescrition":"On Hv-Travel website you can explore new and beautiful places around the world. Reserve your favorite seat and easily contact the support center 24/7.",
-        "myJob":"The site is built on react js, you can checkout new places or reserve your seat.",
-        "websiteAdrress":"https://ryuktravel.netlify.app/",
-        "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
-        "github":"https://github.com/IremRyuk?tab=repositories"
-    },
-    {
-        "id": 7,
+        "id": 4,
         "names": "MyBakuriani",
         "image": ["/Images/Page Images/mybak1.PNG", "/Images/Page Images/mybak2.PNG", "/Images/Page Images/mybak3.PNG"],
         "webSiteDescrition":"In My Bakuriani you can find transportation, apartments in bakuriani, pizzeria. Also you can get : Craftsman service, Furniture making and restoration, Arrangement of living spaces, Linen washing service  ...",

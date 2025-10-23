@@ -16,7 +16,6 @@
 }
 
 .avataranddescr {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   display: flex;
@@ -44,7 +43,6 @@
 }
 
 .container {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: #e5e5e5;
@@ -56,7 +54,6 @@
 }
 
 .animation {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   height: 60px;
@@ -66,8 +63,7 @@
 }
 
 .animation div:first-child {
-  -webkit-animation: text-animation 8s infinite;
-          animation: text-animation 8s infinite;
+  animation: text-animation 8s infinite;
 }
 
 .animation > div > div {
@@ -90,39 +86,6 @@
 .third div {
   padding: 0 40px;
   background-color: #c10528;
-}
-
-@-webkit-keyframes text-animation {
-  0% {
-    margin-top: 0;
-  }
-  10% {
-    margin-top: 0;
-  }
-  20% {
-    margin-top: -5.62rem;
-  }
-  30% {
-    margin-top: -5.62rem;
-  }
-  40% {
-    margin-top: -11.24rem;
-  }
-  60% {
-    margin-top: -11.24rem;
-  }
-  70% {
-    margin-top: -5.62rem;
-  }
-  80% {
-    margin-top: -5.62rem;
-  }
-  90% {
-    margin-top: 0;
-  }
-  100% {
-    margin-top: 0;
-  }
 }
 
 @keyframes text-animation {
@@ -164,7 +127,6 @@
 
 .rightTop {
   padding: 20px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   height: 200px;
@@ -254,7 +216,6 @@
     align-items: center;
   }
   .container {
-    width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     flex-direction: column;

@@ -58,7 +58,6 @@
 
 .description {
   width: 90%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
@@ -102,7 +101,6 @@
 
 @media screen and (max-width: 1200px) {
   .mySwiper {
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -138,7 +136,6 @@
 @media screen and (max-width: 600px) {
   .description {
     width: 90%;
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     display: flex;
