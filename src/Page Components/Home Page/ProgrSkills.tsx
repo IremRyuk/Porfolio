@@ -3,14 +3,14 @@ import Figma from '../../Images/figmaSt.svg'
 import Css from '../../Images/css.png'
 import Html from '../../Images/htmlSt.png'
 import Javascript from '../../Images/javascriptSt.png'
-import Typescript from '../../Images/typescriptSt.png'
-import Sass from '../../Images/sass.png'
+import Ahref from '../../Images/ahref.png'
+import Gc from '../../Images/gc.svg'
 import React from '../../Images/reactSt.png'
-import Jquery from '../../Images/jquery.png'
-import Nodejs from '../../Images/nodejsSt.png'
-import Postman from '../../Images/postman.png'
-import Git from '../../Images/git.png'
-import Github from '../../Images/github.png'
+import Ga from '../../Images/ga.png'
+import Instagram from '../../Images/instagram.webp'
+import Tiktok from '../../Images/tiktok.svg'
+import Cc from '../../Images/cc.webp'
+import Canva from '../../Images/canva.svg'
 import {
   MouseParallaxChild,
   MouseParallaxContainer
@@ -93,7 +93,7 @@ export default function ProgrSkills() {
         justifyContent:'center'
     }}
     >
-    <img src={Sass} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Javascript} alt='George Ireamdze' className='imageParalax'/>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.7}
@@ -105,7 +105,7 @@ export default function ProgrSkills() {
         justifyContent:'center'
     }}
     >
-    <img src={Javascript} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Gc} alt='George Ireamdze' className='imageParalax'/>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.2}
@@ -117,7 +117,7 @@ export default function ProgrSkills() {
         justifyContent:'center'
     }}
     >
-    <img src={Typescript} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Ahref} alt='George Ireamdze' className='imageParalax'/>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.8}
@@ -129,7 +129,7 @@ export default function ProgrSkills() {
         justifyContent:'center'
     }}
     >
-    <img src={Jquery} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Ga} alt='George Ireamdze' className='imageParalax'/>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.4}
@@ -153,7 +153,7 @@ export default function ProgrSkills() {
         justifyContent:'center'
     }}
     >
-    <img src={Nodejs} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Instagram} alt='George Ireamdze' className='imageParalax'/>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.8}
@@ -165,7 +165,7 @@ export default function ProgrSkills() {
         justifyContent:'center'
     }}
     >
-    <img src={Postman} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Tiktok} alt='George Ireamdze' className='imageParalax'/>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.9}
@@ -177,7 +177,7 @@ export default function ProgrSkills() {
         justifyContent:'center'
     }}
     >
-    <img src={Git} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Cc} alt='George Ireamdze' className='imageParalax'/>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.1}
@@ -189,7 +189,7 @@ export default function ProgrSkills() {
         justifyContent:'center'
     }}
     >
-    <img src={Github} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Canva} alt='George Ireamdze' className='imageParalax'/>
     </MouseParallaxChild>
     </div>
           </MouseParallaxContainer>
