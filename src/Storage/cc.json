@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "names": "Cafe Costa",
+        "image": ["/Images/cc/cofe.PNG", "/Images/cc/cofe3.PNG", "/Images/cc/cofe2.PNG"],
+        "webSiteDescrition":"Discover our delicious new products. Every season, we strive to surprise our guests with unique flavor combinations and delight them with coffee classics.",
+        "webSiteDescriptionpl":"Odkryj nasze pyszne nowości. Każdego sezonu staramy się zaskakiwać naszych gości wyjątkowymi połączeniami smaków i zachwycać ich kawowymi klasykami.",
+        "myJob":"My main work on this project - creating viral videos , beautiful pictures , make good algorithm and  to make this Cafe videos and photos popular.",
+        "myJobpl":"Moim głównym zadaniem w tym projekcie jest tworzenie wirusowych filmów, pięknych zdjęć, tworzenie dobrych algorytmów oraz popularyzacja filmów i zdjęć z tej kawiarni.",
+        "websiteAdrress":"https://www.costacoffee.pl/",
+        "skills":"Figma, Canva, Tiktok, Facebook, Instagram",
+        "tiktok":"https://www.tiktok.com/@costacoffeepolska",
+        "instagram":"https://www.instagram.com/costacoffee/?hl=en",
+        "facebook":"https://www.facebook.com/CostaCoffeePoland/"
+
+    }, 
+    {
+        "id": 2,
+        "names": "Archute Architecture Magazine",
+        "image": ["/Images/cc/arc1.JPG", "/Images/cc/arc3.JPG", "/Images/cc/arc2.JPG"],
+        "webSiteDescrition":"Helping you create your best home.",
+        "webSiteDescriptionpl":"Pomagamy Ci stworzyć najlepszy dom.",
+        "myJob":"I created videos, pictures, optimizing social platforms, website and SEO",
+        "myJobpl":"Tworzyłem filmy, zdjęcia, optymalizowałem platformy społecznościowe, strony internetowe i SEO",
+        "websiteAdrress":"https://www.architectmagazine.com/",
+        "skills":"Figma, Canva, Tiktok, Instagram, HTML, CSS, Google Analytics 4",
+        "tiktok":"https://www.tiktok.com/@archute?lang=en",
+        "instagram":"https://www.instagram.com/archute/?hl=en"
+    }
+
+]

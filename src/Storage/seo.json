@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "names": "Leroy Merlin",
+        "image": ["/Images/seo/ml1.JPG", "/Images/seo/ml2.JPG"],
+        "webSiteDescrition":"Leroy Merlin is a French-headquartered home improvement and gardening retailer serving several countries in Europe, Asia, South America, and Africa.",
+        "webSiteDescriptionpl":"Leroy Merlin to francuska sieć sklepów z artykułami do remontu i wyposażenia wnętrz, działająca na terenie wielu krajów Europy, Azji, Ameryki Południowej i Afryki.",
+        "myJob":"My work on this website was to optimize code structure , category keyword targeting, On-Site Optimization, Local SEO",
+        "myJobpl":"Moja praca nad tą witryną polegała na optymalizacji struktury kodu, kierowaniu na słowa kluczowe kategorii, optymalizacji na stronie i lokalnym SEO",
+        "websiteAdrress":"https://www.leroymerlin.pl/",
+        "skills":"Javascript, Github, SEO - Google Search Console, Ahrefs, Keyword generator, Google Keyword Planner ",
+        "github":"Private By Owner"
+
+    }, 
+    {
+        "id": 2,
+        "names": "Trip Advisor",
+        "image": ["/Images/seo/tr1.JPG", "/Images/seo/tr2.JPG"],
+        "webSiteDescrition":"World's Largest Travel Site — Get the latest reviews + lowest prices on hotels, amazing experiences + restaurants.",
+        "webSiteDescriptionpl":"Największa na świecie strona internetowa o podróżach — przeczytaj najnowsze recenzje, najniższe ceny hoteli, poznaj niesamowite doświadczenia i restauracje.",
+        "myJob":"On this website i used to add new styles, new places, change structure of code(optimization) and change website looks.",
+        "myJobpl":"Na tej stronie dodawałem nowe style, nowe miejsca, zmieniałem strukturę kodu (optymalizacja) i zmieniałem wygląd strony.",
+        "websiteAdrress":"https://www.tripadvisor.com/",
+        "skills":"React, SEO - Google Analytics 4, Google Search Console, Ahrefs, Keyword generator, Google Keyword Planner, Git",
+        "github":"Private By Owner"
+    }
+
+]

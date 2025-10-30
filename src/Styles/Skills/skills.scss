@@ -9,7 +9,7 @@
 }
 .skills{
     width: 100vw;
-    height: 90vh;
+    height: 99vh;
     display: flex;
     justify-content: center;
 }
@@ -41,22 +41,31 @@ grid-template-columns: 20% 20% 20% 20%;
 }
 
 .imageParalax{
-    width: 60%;
+    width: 55%;
     object-fit: contain;
     border-radius: 50%;
     filter: drop-shadow(0px 0px 5px black);
     transition: 0.4s;
     cursor: pointer;
     &:hover{
-        width: 70%;
+        width: 60%;
         filter: drop-shadow(0px 0px 10px white);
     }
     &:active{
-        width: 70%;
+        width: 60%;
         filter: drop-shadow(0px 0px 20px white);
     }
 }
 
+.skillstype{
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    background:-webkit-linear-gradient(288deg, #ff5b00, #4ad8ff, #ff00f2, white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
 
 // // // // Mini Screeens // // // // 
 
@@ -132,4 +141,7 @@ grid-template-columns: 20% 20% 20% 20%;
             filter: drop-shadow(0px 0px 20px white);
         }
     }
+    .skillstype{
+    font-size: large;
+}
 }

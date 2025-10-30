@@ -53,11 +53,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Figma} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Figma} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>Figma</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.9}
@@ -65,11 +67,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Html} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Html} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>HTML</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.3}
@@ -77,11 +81,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Css} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Css} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>CSS</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.5}
@@ -89,11 +95,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Javascript} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Javascript} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>Javascript</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.7}
@@ -101,11 +109,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Gc} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Gc} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>Search Console</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.2}
@@ -113,11 +123,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Ahref} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Ahref} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>Ahref</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.8}
@@ -125,11 +137,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Ga} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Ga} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>Google Analytics</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.4}
@@ -137,11 +151,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={React} alt='George Ireamdze' className='imageParalax'/>
+    <img src={React} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>React</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.2}
@@ -149,11 +165,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Instagram} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Instagram} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>Instagram</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.8}
@@ -161,11 +179,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Tiktok} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Tiktok} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>Tiktok</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.9}
@@ -173,11 +193,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Cc} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Cc} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>Social Media</p>
     </MouseParallaxChild>
     <MouseParallaxChild
     factorX={0.1}
@@ -185,11 +207,13 @@ export default function ProgrSkills() {
     style={{
         filter: "invert(0)",
         display:'flex',
+        flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
     }}
     >
-    <img src={Canva} alt='George Ireamdze' className='imageParalax'/>
+    <img src={Canva} alt='George Iremadze' className='imageParalax'/>
+    <p className='skillstype'>Canva</p>
     </MouseParallaxChild>
     </div>
           </MouseParallaxContainer>
