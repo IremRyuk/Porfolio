@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import '../Styles/ProjectDescr/descr.css'
-import Data from '../Storage/data.json'
+import Data from '../Storage/seo.json'
 // Swiper Js
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {useEffect} from 'react'

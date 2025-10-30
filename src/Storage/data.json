@@ -4,10 +4,11 @@
         "names": "Artfinder",
         "image": ["/Images/Page Images/art1.webp", "/Images/Page Images/art2.webp", "/Images/Page Images/art3.webp"],
         "webSiteDescrition":"Artfinder is a website where you can buy paintings, photographs, drawings,sculptures or digital arts",
+        "webSiteDescriptionpl":"Artfinder to strona internetowa, na której możesz kupić obrazy, fotografie, rysunki, rzeźby lub sztukę cyfrową",
         "myJob":"My main work on this website was to add new filters, styles, and pricing, as well as creating a new page where you could create new events and send those events as notifications to custom clients in Gmail.",
+        "myJobpl":"Moją główną pracą nad tą witryną było dodawanie nowych filtrów, stylów i cen, a także tworzenie nowej strony, na której można było tworzyć nowe wydarzenia i wysyłać je jako powiadomienia do niestandardowych klientów w Gmailu",
         "websiteAdrress":"https://www.artfinder.com/",
-        "skills":"Figma,Jquery, Javascript, Sass, Github",
-        "github":"https://github.com/IremRyuk?tab=repositories"
+        "skills":"Figma,Jquery, Javascript, Sass, Github"
 
     }, 
     {
@@ -15,30 +16,10 @@
         "names": "Almosafer",
         "image": ["/Images/Page Images/almosafer1.PNG", "/Images/Page Images/almo2.PNG", "/Images/Page Images/almo3.PNG"],
         "webSiteDescrition":"Almosafer is website where you can buy/book tickets of flights and airline. Rent cars and find stays. On this website you can explore new places",
+        "webSiteDescriptionpl":"Almosafer to strona internetowa, na której możesz kupić/zarezerwować bilety lotnicze i inne. Wypożyczyć samochód i znaleźć nocleg. Na tej stronie możesz odkrywać nowe miejsca.",
         "myJob":"On this website i used to add new styles, new places, change structure of code(optimization) and change website looks.",
+        "myJobpl":"Na tej stronie dodawałem nowe style, nowe miejsca, zmieniałem strukturę kodu (optymalizacja) i zmieniałem wygląd strony",
         "websiteAdrress":"https://global.almosafer.com/",
-        "skills":"Figma, Jquery, Javascript, Sass, Git, Github",
-        "github":"Private By Owner"
-    },
-    {
-        "id": 3,
-        "names": "ToolLand",
-        "image": ["/Images/Page Images/design1.webp", "/Images/Page Images/design2.webp", "/Images/Page Images/design3.webp", "/Images/Page Images/design4.webp"],
-        "webSiteDescrition":"On the ToolLand website, you can draw anything (edit, delete, change color or background), save your personal information, get information about your city, country and internet speed, convert US units of measurement to European.",
-        "myJob":"The site is built on react js, this website can be used to kill time, store groceries (edit, delete) or get information about your device.",
-        "websiteAdrress":"https://designryuk.netlify.app/",
-        "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
-        "github":"https://github.com/IremRyuk?tab=repositories"
-    },
-    {
-        "id": 4,
-        "names": "MyBakuriani",
-        "image": ["/Images/Page Images/mybak1.PNG", "/Images/Page Images/mybak2.PNG", "/Images/Page Images/mybak3.PNG"],
-        "webSiteDescrition":"In My Bakuriani you can find transportation, apartments in bakuriani, pizzeria. Also you can get : Craftsman service, Furniture making and restoration, Arrangement of living spaces, Linen washing service  ...",
-        "myJob":"this website is build on react js , website is informational and you can get informations about transport , food, and apartments",
-        "websiteAdrress":"https://mybakuriani.netlify.app/",
-        "skills":"Figma, ReactJs, Jquery, Javascript, Sass, Git, Github",
-        "github":"Private By Owner"
+        "skills":"Figma, Jquery, Javascript, Sass, Git, Github"
     }
-
 ]

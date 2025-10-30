@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import '../Styles/ProjectDescr/descr.css'
-import Data from '../Storage/data.json'
+import Data from '../Storage/cc.json'
 // Swiper Js
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {useEffect} from 'react'
@@ -15,7 +15,7 @@ import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 export default function ProjectDescr() {
   // Filter Data with Params
     const {Id}:any = useParams()
-    const FilteredData:{id:number;names:string;image:string[];webSiteDescrition:string;websiteAdrress:string;myJob:string;skills:string;github?:string;}|undefined = Data.find(res=>res.id === parseInt(Id))
+    const FilteredData:{id:number;names:string;image:string[];webSiteDescrition:string;websiteAdrress:string;myJob:string;skills:string;tiktok?:string;instagram?:string;facebook?:string;}|undefined = Data.find(res=>res.id === parseInt(Id))
   // Set Page Top
     useEffect(()=>{
       window.scrollTo(0,0)
@@ -58,10 +58,16 @@ export default function ProjectDescr() {
       <center><div className='line'></div></center>
       <p>My Job: {FilteredData.myJob}</p>
       <center><div className='line'></div></center>
-      <p>WebSite Address: <a href={`${FilteredData.websiteAdrress}`} target="_blank" style={{color:'rgb(0 255 147)'}}>{FilteredData.websiteAdrress}</a></p>
+      <p className='smallClass'>WebSite Address: <a href={`${FilteredData.websiteAdrress}`} target="_blank" style={{color:'rgb(0 255 147)'}}>{FilteredData.websiteAdrress}</a></p>
     </div>
     <div className="rightSoc">
       <p>Skills: {FilteredData.skills}</p>
+      <center><div className='line'></div></center>
+      <p className='smallClass'>Tiktok: {FilteredData.tiktok === "Private By Owner"?<span>{FilteredData.tiktok}</span>:<a href={`${FilteredData.tiktok}`} target="_blank" style={{color:'rgb(0 255 147)'}} className='test2'>{FilteredData.tiktok}</a>}</p>
+      <center><div className='line'></div></center>
+      <p className='smallClass'>Instagram: {FilteredData.instagram === "Private By Owner"?<span>{FilteredData.instagram}</span>:<a href={`${FilteredData.instagram}`} target="_blank" style={{color:'rgb(0 255 147)'}}>{FilteredData.instagram}</a>}</p>
+      {FilteredData.facebook?<center><div className='line'></div></center>:<></>}
+      {FilteredData.facebook?<p className='smallClass'>Facebook: {FilteredData.facebook === "Private By Owner"?<span>{FilteredData.facebook}</span>:<a href={`${FilteredData.facebook}`} target="_blank" style={{color:'rgb(0 255 147)'}}>{FilteredData.facebook}</a>}</p>:<></>}
     </div>
     </div>
     </div>

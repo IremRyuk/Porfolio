@@ -12,3 +12,71 @@
     height: 50px;
     border-left:2px solid black;
 }
+.contacts{
+    width: 85%;
+    height: min-content;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    box-shadow:0px 0px 50px black;
+    font-size: xx-large;
+    border: none;
+    border-radius: 2.4mm;
+    gap: 20px;
+}
+.ct{
+    width: 70%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ctt{
+    width: 25%;
+    text-align: start;
+    color: #3bffdb;
+}
+.cta{
+    width: 75%;
+    color: #00ffd0;
+}
+@media screen and (max-width:1400px) {
+    .contacts{
+    bottom: 5%;
+}
+}
+@media screen and (max-width:1000px) {
+    .contacts{
+    width: 98%;
+    font-size: x-large;
+}
+}
+@media screen and (max-width:700px) {
+    .contacts{
+    width: 98%;
+    gap: 30px;
+    font-size: large;
+}
+.ct{
+    width: 70%;
+    height: 25%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.ctt{
+    width: 100%;
+    text-align: center;
+}
+.cta{
+    width: 100%;
+    text-align: center;
+}
+}
