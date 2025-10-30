@@ -5,11 +5,20 @@ import Cc from '../../Storage/cc.json'
 import ProjectImgs from './ProjectImgs'
 import ProjectImgsSEO from './ProjectImgsSEO'
 import ProjectImgsCC from './ProjectImgsCC'
+import { useSelector } from 'react-redux'
 
 export default function Projects() {
+  const flag = useSelector((res:any)=>res.flag)
   return (
     <>
-    <center><p className='proj-texts'>My Projects</p></center>
+    <center><p className='proj-texts'>
+        {flag==='pl'
+        ?
+        'Moje projekty'
+        :
+        'My Projects'
+        }
+      </p></center>
     {/* SEO */}
     <center><p className='proj-web'>SEO</p></center>
     <center><div className='projects'>
