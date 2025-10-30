@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom'
 import '../Styles/Nav/nav.css'
 import { useEffect } from 'react'
 import $ from 'jquery'
+import Flag from './Flag'
+import { useSelector } from 'react-redux'
 
 export default function Nav() {
     const navigate = useNavigate()
@@ -31,14 +33,20 @@ useEffect(()=>{
 useEffect(()=>{
     window.addEventListener('scroll',changeBg)
 })
-    
+    // Flag
+        const flag = useSelector((res:any)=>res.flag)
   return (
     <AppBar sx={AppBarMui}>
       <Toolbar>
 <Stack direction='row' sx={BoxMuiTexts}>
     {/* Profile */}
     <button className='con-btn' onClick={()=>navigate('/')}>
-    PROFILE
+        {flag==='pl'
+        ?
+        'PROFIL'
+        :
+        'PROFILE'
+        }
     <div id="clip">
         <div id="leftTop" className="corner"></div>
         <div id="rightBottom" className="corner"></div>
@@ -49,8 +57,13 @@ useEffect(()=>{
     <span id="leftArrow" className="arrow"></span>
 </button>
 {/* Contcts */} 
-    <button className='con-btn' onClick={()=>navigate('/contacts')}> 
-    CONTACT ME
+    <button className='con-btn' onClick={()=>navigate('/contacts')}>
+        {flag==='pl'
+        ?
+        'KONTAKT'
+        :
+        'CONTACT'
+        }
     <div id="clip">
         <div id="leftTop" className="corner"></div>
         <div id="rightBottom" className="corner"></div>
@@ -60,6 +73,7 @@ useEffect(()=>{
     <span id="rightArrow" className="arrow"></span>
     <span id="leftArrow" className="arrow"></span>
 </button>
+<Flag />
 </Stack>
       </Toolbar>
     </AppBar>

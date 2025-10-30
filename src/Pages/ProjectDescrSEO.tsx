@@ -12,14 +12,16 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { useSelector } from 'react-redux';
 export default function ProjectDescr() {
   // Filter Data with Params
     const {Id}:any = useParams()
-    const FilteredData:{id:number;names:string;image:string[];webSiteDescrition:string;websiteAdrress:string;myJob:string;skills:string;github?:string;}|undefined = Data.find(res=>res.id === parseInt(Id))
+    const FilteredData:{id:number;names:string;webSiteDescriptionpl:string;myJobpl:string;image:string[];webSiteDescrition:string;websiteAdrress:string;myJob:string;skills:string;github?:string;}|undefined = Data.find(res=>res.id === parseInt(Id))
   // Set Page Top
     useEffect(()=>{
       window.scrollTo(0,0)
     },[])
+  const flag = useSelector((res:any)=>res.flag)
   return (
     <>
     {FilteredData &&
@@ -54,14 +56,30 @@ export default function ProjectDescr() {
     {/* Project Description */}
     <div className='description'>
     <div className="leftText">
-      <p>Site Descrition: {FilteredData.webSiteDescrition}</p>
+     {
+          flag === 'pl'
+          ?<p>Opis: {FilteredData.webSiteDescriptionpl}</p>
+          :<p>Site Description: {FilteredData.webSiteDescrition}</p>
+        }
       <center><div className='line'></div></center>
-      <p>My Job: {FilteredData.myJob}</p>
+              {
+          flag === 'pl'
+          ?<p>Moja praca: {FilteredData.myJobpl}</p>
+          :<p>My Job: {FilteredData.myJob}</p>
+        }
       <center><div className='line'></div></center>
-      <p>WebSite Address: <a href={`${FilteredData.websiteAdrress}`} target="_blank" style={{color:'rgb(0 255 147)'}}>{FilteredData.websiteAdrress}</a></p>
+            {
+          flag === 'pl'
+          ?<p>Adres : <a href={`${FilteredData.websiteAdrress}`} target="_blank" style={{color:'rgb(0 255 147)'}}>{FilteredData.websiteAdrress}</a></p>
+          :<p>WebSite Address: <a href={`${FilteredData.websiteAdrress}`} target="_blank" style={{color:'rgb(0 255 147)'}}>{FilteredData.websiteAdrress}</a></p>
+        }
     </div>
     <div className="rightSoc">
-      <p>Skills: {FilteredData.skills}</p>
+                  {
+          flag === 'pl'
+          ?<p>Umiejętności: {FilteredData.skills}</p>
+          :<p>Skills: {FilteredData.skills}</p>
+        } 
     </div>
     </div>
     </div>

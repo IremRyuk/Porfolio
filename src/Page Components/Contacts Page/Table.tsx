@@ -1,4 +1,7 @@
+import { useSelector } from "react-redux"
+
 export default function Table() {
+    const flag = useSelector((res:any)=>res.flag)
   return (
 <div className="contacts">
 <div className="ct">
@@ -10,7 +13,11 @@ export default function Table() {
     <a className="cta" href={`https://github.com/IremRyuk?tab=repositories`} target="_blank">https://github.com/IremRyuk?tab=repositories</a>
 </div>
 <div className="ct">
-    <p className="ctt">Phone</p>
+    <p className="ctt">
+    {flag==='pl'
+    ?'Telefon'
+    :'Phone'}
+    </p>
     <a className="cta" href="tel:+48782817904">+48782817904</a>
 </div>
 <div className="ct">
