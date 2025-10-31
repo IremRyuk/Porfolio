@@ -47,14 +47,6 @@ useEffect(()=>{
         :
         'PROFILE'
         }
-    <div id="clip">
-        <div id="leftTop" className="corner"></div>
-        <div id="rightBottom" className="corner"></div>
-        <div id="rightTop" className="corner"></div>
-        <div id="leftBottom" className="corner"></div>
-    </div>
-    <span id="rightArrow" className="arrow"></span>
-    <span id="leftArrow" className="arrow"></span>
 </button>
 {/* Contcts */} 
     <button className='con-btn' onClick={()=>navigate('/contacts')}>
@@ -64,14 +56,6 @@ useEffect(()=>{
         :
         'CONTACT'
         }
-    <div id="clip">
-        <div id="leftTop" className="corner"></div>
-        <div id="rightBottom" className="corner"></div>
-        <div id="rightTop" className="corner"></div>
-        <div id="leftBottom" className="corner"></div>
-    </div>
-    <span id="rightArrow" className="arrow"></span>
-    <span id="leftArrow" className="arrow"></span>
 </button>
 <Flag />
 </Stack>
