@@ -15,14 +15,23 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer
 } from "react-parallax-mouse";
+import { useSelector } from 'react-redux'
 
 
 export default function ProgrSkills() {
   // Tasks
   //    OnClick Icons Navigate on Projects Page
+// Flag
+const flag = useSelector((res:any)=>res.flag)
   return (
     <>
-    <center><p style={{fontFamily:`'Dancing Script', cursive`}} className='textSkills'>My Skills</p></center>
+    <center><p style={{fontFamily:`'Dancing Script', cursive`}} className='textSkills'>
+            {flag==='pl'
+    ?
+    `Moje umiejętności`
+    :
+    `My Skills`
+    }</p></center>
     <div className="skills">
 
       <div className='skillsList'>
