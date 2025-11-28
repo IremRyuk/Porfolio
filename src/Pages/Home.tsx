@@ -2,6 +2,7 @@ import Intro from "../Page Components/Home Page/Intro";
 import PralaxPicAbout from "../Page Components/Home Page/PralaxPicAbout";
 import ProgrSkills from "../Page Components/Home Page/ProgrSkills";
 import Projects from "../Page Components/Home Page/Projects";
+import Videos from '../Page Components/Home Page/Videos';
 import { useState,useEffect } from "react";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
     <>
     {is?null:<Intro />}
     <PralaxPicAbout />
+    <Videos />
     <ProgrSkills />
     <Projects />
     </>
