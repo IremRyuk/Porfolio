@@ -33,8 +33,8 @@ export default function Home() {
     {is?null:<Intro />}
     <PralaxPicAbout />
     <Videos />
-    <ProgrSkills />
     <Projects />
+    <ProgrSkills />
     </>
   )
 }
